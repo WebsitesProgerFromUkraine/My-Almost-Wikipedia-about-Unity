@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Unity, що це?
+{% endblock %}
+
+{% block body %}
+<h1>Основне про Unity</h1>
+<p style="font-size:25px;">Unity — це багатоплатформний ігровий рушій для створення як 2D, так і 3D ігор. Створені за допомогою Unity програми працюють на настільних комп'ютерних системах, мобільних пристроях та гральних консолях, а також на пристроях віртуальної чи доповненої реальності. Всього він підтримує 25 платформ, а саме:</p>
+<ul style="font-size:25px; list-style-type: '— '; margin-left:20px;">
+  <li>iOS;</li>
+  <li>Windows;</li>
+  <li>Android;</li>
+  <li>Tizen;</li>
+  <li>Mac;</li>
+  <li>Linux;</li>
+  <li>WebGL;</li>
+  <li>PlayStation 4;</li>
+  <li>PlayStation Vita;</li>
+  <li>PlayStation VR;</li>
+  <li>3DS;</li>
+  <li>Oculus;</li>
+  <li>Rift;</li>
+  <li>Google Cardboard;</li>
+  <li>Xbox One;</li>
+  <li>Gear VR;</li>
+  <li>Windows Mixed Reality;</li>
+  <li>Android TV;</li>
+  <li>Samsung Smart TV;</li>
+  <li>tvOS;</li>
+  <li>Nintendo Switch;</li>
+  <li>Xbox Series X;</li>
+  <li>Xbox Series S;</li>
+  <li>PlayStation 5;</li>
+  <li>Magic Leap.</li>
+</ul>
+<img src="{{ url_for('static', filename='images/Unity.jpg') }}"
+    alt ="Unity"
+    style="width:1300px; height:auto; margin-top:20px">
+{% endblock %}
